@@ -31,9 +31,10 @@ num=sum(13)
 print(num)
 
 
+
+
 def sum_of_two_num(x,y):
     print('the addition of the number is approximately %s and %s'%(x,y))
-sum_of_two_num(4,6)
 
 
 
