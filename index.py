@@ -1,13 +1,31 @@
-x =8
-y =72
 
-print(x+y)
-print(y-x)
+economics_grade = {'applied statistic': 78,
+ 'econometrics': 93,
+ 'economic planning': 85}
 
 
-a =10
-b =200
+print( economics_grade.items())
 
-print(a*b)
-print(b/a)
-print(a*(b-a))
+print(type(economics_grade))
+
+print(len(economics_grade))
+
+economics_grade.update({'project evaluation': 81, 'advanced macro': 100 ,'economics system':70})
+print(economics_grade.items())
+
+economics_grade.pop('economics system')
+print(economics_grade)
+
+if 'economics system' in economics_grade:
+  print(True)
+else:
+    print(False)
+
+new_economics_grade = economics_grade ['applied statistic']+4
+print(new_economics_grade)
+
+
+econometrics = economics_grade['econometrics']
+print('the highest mark is {} econometrics, of the name zee'.format(econometrics))
+
+

@@ -1,6 +1,5 @@
 #firstgame
 
-
 print("Welcome to my first project!")
 name=input("What is your name? ")
 age=int(input("What is your age?"))
@@ -43,7 +42,6 @@ if age >=18:
 
 else:
     print("you are not old enough for the game")
-
 
 
 
