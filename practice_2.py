@@ -1,3 +1,4 @@
+
 def store():
     instruction = input(" Welcome to ABC ltd. Which of the product do you want to purchase, leather or rubber? (leather/rubber):")
 
@@ -20,6 +21,6 @@ def store():
 
 
 
-
 store()
+
 
