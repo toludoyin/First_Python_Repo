@@ -6,10 +6,10 @@ class product:
         self.age = age
 
     def ProductName(self):
-            print("My name is"+ " "+ self.name)
+            print(f"My name is {self.name})
 
     def AgeNumber(self):
-                print("I am" + " " + self.age + " " + "years old" )
+                print(f"I am {self.age} years old" )
 
 p = product("Biodun","22")
 p.AgeNumber()
