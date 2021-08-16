@@ -8,37 +8,11 @@ result()
 
 print("my name is",x)
 
-#looping string
-for x in "money":
-    print(x)
-
 
 name=["soji","taiwo","kemi","bimbo"]
 name1=["dami","mary","success"]
 name.extend(name1)
 print(name)
-
-name=["soji","taiwo","kemi","bimbo"]
-for x in range(len(name)):
-    print(name[x])
-
-#using while loop for list
-name=["soji","taiwo","kemi","bimbo"]
-s= 0
-while s < len(name):
-    print(name[s])
-    s= s+1
-
-name=["soji","taiwo","kemi","bimbo"]
-[ print(x) for x in name]
-
-#list comprehension
-name=["soji","taiwo","kemi","bimbo"]
-newlist=[n.upper() for n in name if "m" in n]
-print(newlist)
-
-sample=[a for a in range(12)]
-print(sample)
 
 #acsending and descending order
 name=["soji","taiwo","kemi","bimbo"]
