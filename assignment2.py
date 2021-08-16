@@ -112,27 +112,20 @@ for x in fruits:
         continue
     print(x)
 
-fruits = ["Banana","Orange","Pineapple","Apple"]
-for x in "Banana":
-    print(x)
-
 for a in range(6 , 37, 4):
     print(a)
 else:
     print("Finally done")
 
-for a in range(50 , 101):
-    print(a)
-
-names = ["manny","roland","okiki","alfred"]
-courses= ["maths","eng","econs","agric"]
+names = ["manny","roland"]
+courses= ["maths","eng"]
 for a in names:
     for b in courses:
         print(a,b)
 
 #FUNCTION
 def biography(fname,lname):
-    print("My name is " + fname + " " + lname)
+    print(f"My name is {fname} {lname})
 
 biography("Toludoyin" , "Shopein")
 
@@ -173,7 +166,6 @@ name(state1= "Dubia", state2="Jarmany",state3="Ethopia",state4="USA",state5="Aut
 def country(state="Ogun"):
     print("I am from"+ state)
 
-country(state="Abia")
 country(state="Anambra")
 country()
 country(state="Yobe")
